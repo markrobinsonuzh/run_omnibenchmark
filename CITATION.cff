@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "run_omnibenchmark"
+type: software
+authors:
+  - family-names: "Mallona"
+    given-names: "Izaskun"
+repository-code: "https://github.com/omnibenchmark/run_omnibenchmark"
+version: "0.1.2"
+url: "https://github.com/omnibenchmark/run_omnibenchmark"
+abstract: >
+  GitHub Action to run an Omnibenchmark. This action
+  enables automated execution of Omnibenchmark workflows in CI pipelines,
+  ensuring reproducibility and consistency across environments.
+keywords:
+  - omnibenchmark
+  - benchmarking
