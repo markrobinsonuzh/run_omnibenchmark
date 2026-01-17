@@ -105,6 +105,10 @@ runs:
         CORES: ${{ steps.vars.outputs.CORES }}        
       shell: bash -l {0}
       run: |
+        echo $YAML
+        echo $CORES
+        echo $BACKEND
+        ob --version
         ob run benchmark "$YAML" --cores "$CORES"
          
     - name: Upload benchmark files (artifact)
