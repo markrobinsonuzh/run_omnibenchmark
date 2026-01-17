@@ -109,7 +109,7 @@ runs:
         echo $CORES
         echo $BACKEND
         ob --version
-        ob run benchmark "$YAML" --cores "$CORES"
+        ob run "$YAML" --cores "$CORES"
          
     - name: Upload benchmark files (artifact)
       uses: actions/upload-artifact@v4
